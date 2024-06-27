@@ -7,16 +7,16 @@ import Slider from "./_components/Slider";
 import CoffeeSlider from "./_components/CSlider";
 
 export default function Home() {
-	return (
-		<main className="container mx-auto p-4">
-			<Header />
-			{/* <Slider /> */}
-			<CoffeeSlider />
-				<Physical />
-					<_Portfolio />
-						<Footer />
-		</main>
-	);
+  return (
+    <main className="container mx-auto p-4">
+      <Header />
+      {/* <Slider /> */}
+      <CoffeeSlider />
+      <Physical />
+      <_Portfolio />
+      <Footer />
+    </main>
+  );
 }
 
 // <main className="flex min-h-screen flex-col items-center justify-between p-24">
